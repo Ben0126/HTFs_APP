@@ -22,7 +22,5 @@
         android:layout_marginStart="16dp"
         android:layout_weight="1"
         android:text="選擇"
-        android:textColor="#000000"
-        android:textColorHint="#000000"
         android:textSize="18sp" />
 </LinearLayout>

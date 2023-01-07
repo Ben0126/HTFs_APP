@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
     tools:context=".aboutuss">
 
     <TextView
@@ -14,22 +13,22 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="關於我們"
-        android:textColor="#000000"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="330dp"
-        android:layout_height="358dp"
+        android:layout_width="377dp"
+        android:layout_height="321dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
         android:text="快樂宿朋友是一站式打工換宿媒合平台，除了媒合打工換宿，更獨家推出三方媒合機制：先找尋合適自己的工作，再選擇舒服的住宿，並做配對其中雇主可以解決人力需求的問題，住宿業者可以降低空房率，打工換宿者可以更方便快速的找到適合且喜歡的打工換宿方案，經過平台整理打工換宿相關資訊，並透過搜尋機制快速配對合適的合作夥伴 也能保障各方的權益，讓三方都依照各自需求找到最適合自己的Mr.Right！"
-        android:textColor="#000000"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -38,7 +37,6 @@
         android:layout_height="48dp"
         android:layout_marginBottom="8dp"
         android:text="快樂找打工 得來宿安逸 四海皆朋友"
-        android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,20 +52,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="40dp"
-        android:layout_height="34dp"
-        android:layout_marginBottom="20dp"
+    <Button
+        android:id="@+id/insta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="our IG"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
-        app:layout_constraintStart_toStartOf="@+id/textView8"
-        app:srcCompat="@drawable/_23" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="264dp"
-        android:layout_height="174dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
-        app:layout_constraintEnd_toEndOf="@+id/textView8"
-        app:srcCompat="@drawable/logo_0" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

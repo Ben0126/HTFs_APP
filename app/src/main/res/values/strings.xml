@@ -19,6 +19,27 @@
         <item>@drawable/e</item>
 
     </integer-array>
+
+    <string-array name="word">
+        <item >關於我們</item >
+        <item >選擇打工</item >
+        <item >選擇住宿</item >
+        <item >我想合作</item >
+        <item >關於我們5</item >
+
+    </string-array>
+
+    <string-array name="sleep">
+        <item >關於我們</item >
+        <item >選擇打工</item >
+        <item >選擇住宿</item >
+        <item >我想合作</item >
+        <item >關於我們5</item >
+
+    </string-array>
+
+
+
     <string name="our">關於我們</string>
     <string name="choosework">選擇打工</string>
     <string name="choosesleep">選擇住宿</string>

@@ -26,17 +26,24 @@ class joinuss : AppCompatActivity() {
 
         exit.setOnClickListener {
             //建立 AlertDialog 物件
+            AlertDialog.Builder(this)
+                .setTitle("取消選取")
+                .setMessage("確定要取消嗎？")
 
+                .setNegativeButton("確定") { dialog, which ->
                     startActivity(Intent(this, MainActivity::class.java))
                     showToast("返回首頁")
-
+                }
+                .setPositiveButton("取消") { dialog, which ->
+                    showToast("請輸入資料")
+                }.show()
         }
 
         correct.setOnClickListener {
 
             if (namee.length() < 1) {
                 name.text = "請輸入店家名稱！"
-                showToast("店家名稱尚未輸入")//執行showToast方法
+                showToast("店家名稱尚未輸入8")//執行showToast方法
                 return@setOnClickListener
             }
 

@@ -20,7 +20,7 @@ class MyAdapter(context: Context, data: ArrayList<Item>, private val layout: Int
         //將訊息指派給 TextView 呈現，若是垂直排列則為名稱，否則為名稱及價格
 
         val choose = view.findViewById<RadioButton>(R.id.radioButton)
-        choose.text =  item.name
+        choose.text = item.name.toString()
         //回傳此項目的畫面
         return view
 
