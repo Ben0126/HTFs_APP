@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">快樂宿朋友</string>
+
+    <integer-array name="image_list">
+        <item>@drawable/_01</item>
+        <item>@drawable/_02</item>
+        <item>@drawable/_03</item>
+        <item>@drawable/_04</item>
+        <item>@drawable/_05</item>
+
+    </integer-array>
+
+
+    <integer-array name="image_listt">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+
+    </integer-array>
+    <string name="our">關於我們</string>
+    <string name="choosework">選擇打工</string>
+    <string name="choosesleep">選擇住宿</string>
+    <string name="wanawith">我想合作</string>
+</resources>
+
+
